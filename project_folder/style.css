@@ -42,3 +42,164 @@ body {
 .nav-list li a:hover {
     color: #007BFF;
 }
+
+.food-image {
+    width: 1200;
+    height: 405px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-overlay {
+    width: 300px;
+    height: auto;
+    margin-left: 150px;
+    margin-right: auto;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+/* Register Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #393939;
+}
+
+.container {
+    background: linear-gradient(
+        to bottom,
+        #0c3446 0%,
+        #0C3446 30%,
+        #B1B688 30%,
+        #B1B688 50%
+    );
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 350px;
+    border: .5px solid #fff;
+    border-radius: 10px;
+}
+
+.profile img {
+    width: 100px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    outline: 4px solid #0C3446;
+    position: relative;
+    left: 32%;
+    top: 30px;
+}
+
+.info-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.info-container h2 {
+    color: #0c3446;
+}
+
+.info-container p {
+    color: #0c3446
+}
+
+.social-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.1rem;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.social-container i:nth-child(1) {
+    padding: 3px;
+    font-size: 25px;
+    background-color: rgb(0,0, 0);
+    border-radius:  50%;
+    cursor: pointer;
+}
+.social-container i:nth-child(2) {
+    padding: 3px;
+    font-size: 25px;
+    border-radius:  50%;
+    cursor: pointer;
+}
+.social-container i:nth-child(3) {
+    padding: 3px;
+    font-size: 25px;
+    background-color: rgb(0, 32, 214);
+    border-radius:  50%;
+    cursor: pointer;
+}
+
+.social-container i:nth-child(4) {
+    border-radius:  50%;
+    cursor: pointer;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 1rem;
+}
+
+.btn-container button {
+    padding: 7px 20px;
+    border: 2px solid #0C3446;
+    border-radius: 5px;
+    color: #fff;
+    font-family: sans-serif;
+    background-color: #0C3446;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn-container button::hover {
+    opacity: .5;
+}
+
+.like-comment-share {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.like-comment-share i {
+    font-size: 17px;
+}
+
+.like-comment-share i, .comment, .share {
+    padding: 1px 18px;
+}
+
+.like-comment-share .like, .comment {
+    padding: 2px 21px;
+    border-right: 1px solid #818789;
+}
